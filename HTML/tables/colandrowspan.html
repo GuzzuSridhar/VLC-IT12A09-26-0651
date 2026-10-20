@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid black;
+            background-color: brown;
+            color: azure;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            width: 100px;
+            height: 20px;
+            background-color: bisque;
+        }
+
+        div {
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Apply Row and Column Spans </h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Bill Gates</td>
+                    <td>45</td>
+                    <td>United States</td>
+                </tr>
+                <tr>
+                    <td>Tom</td>
+                    <td>Moody</td>
+                    <td>65</td>
+                    <td>Singapore</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Smith</td>
+                    <td>44</td>
+                    <td>Malaysia</td>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>Brown</td>
+                    <td>33</td>
+                    <td rowspan="3">Singapore</td>
+                </tr>
+                <tr>
+                    <td>James</td>
+                    <td>White</td>
+                    <td>54</td>
+                    <!-- <td>Singapore</td> -->
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>Taylor</td>
+                    <td>44</td>
+                    <!-- <td>Singapore</td> -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
