@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Native dialog</h1>
+    <hr>
+    <!-- native dialog -->
+    <!-- button to open the dialog -->
+    <button id="open" onclick="mydialog.showModal()">Open dialog</button>
+
+    <!-- dialog -->
+    <dialog id="mydialog">
+        <p>Please sign in to continue</p>
+        <button id="close" onclick="mydialog.close()">Close</button>
+    </dialog>
+</body>
+
+</html>
