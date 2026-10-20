@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 2px solid black;
+            background-color: blue;
+            color: white;
+        }
+
+        td {
+            border: 1px solid black;
+            background-color: aquamarine;
+        }
+
+        tfoot td {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Working with tables</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>Alex</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>David</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bill</td>
+                <td>6000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Salary</td>
+                <td>10000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>
