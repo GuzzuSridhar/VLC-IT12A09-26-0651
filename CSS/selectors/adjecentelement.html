@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* immediate p element after the div */
+        div+p {
+            color: red;
+            background-color: aqua;
+        }
+
+        /* immediate p element after the h1 */
+        h1+p {
+            color: blue;
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Thi is in the div</p>
+        <p>Thi is in the div</p>
+        <p>Thi is in the div</p>
+    </div>
+    <p>This is styled</p>
+    <p>This is not in the div</p>
+    <p>This is not in the div</p>
+
+    <div>
+        <h1>Hi this is</h1>
+        <p>Thi is in the div</p>
+        <p>Thi is in the div</p>
+        <p>Thi is in the div</p>
+    </div>
+    <p>This is Styled</p>
+    <p>This is not in the div</p>
+    <p>This is not in the div</p>
+
+</body>
+
+</html>
