@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | Sample Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="login.html" style="text-decoration:none;color:inherit">sample<span>store</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="login.html" class="active" aria-current="page">Login</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="login-wrap">
+      <section class="login-card" aria-labelledby="login-title">
+        <h1 id="login-title">Welcome back</h1>
+        <p class="subtitle">Sign in to continue to your account.</p>
+        <form action="#" method="get">
+          <label class="field">
+            <span>Email address</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input type="password" name="password" placeholder="Enter your password" required>
+          </label>
+          <button class="btn" type="submit">Sign in</button>
+        </form>
+        <p class="small-note">Just browsing? <a href="products.html">View products</a></p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
