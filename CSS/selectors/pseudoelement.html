@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* write pseudo elements :: */
+        p::before {
+            content: "Hi, .."
+        }
+
+        p::after {
+            content: " Welcome"
+        }
+
+        p::selection {
+            background-color: lightpink;
+        }
+
+        p::first-letter {
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>John</p>
+    <p>Alex</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit quae facere ipsum quibusdam maxime itaque
+        inventore quisquam facilis deserunt ratione reprehenderit ex minus assumenda, repellendus blanditiis minima
+        dolorum. Error.</p>
+</body>
+
+</html>
