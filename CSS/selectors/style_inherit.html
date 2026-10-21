@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style Inheritance -->
+    <style>
+        .a {
+            color: red;
+        }
+
+        .b {
+            color: blue;
+        }
+
+        .test {
+            color: brown;
+        }
+
+        #test {
+            color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <!-- the styles are inherited by the child elements -->
+        <h1>This is Heading</h1>
+        <!-- the p below has a overidden class and does not inherit -->
+        <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est esse excepturi hic vero
+            voluptatum
+            dolor nostrum rerum voluptatibus vel sapiente dolorum necessitatibus adipisci eligendi, ipsum maiores quos
+            nisi ipsa.</p>
+    </div>
+    <div class="b">
+        <h1>This is Heading</h1>
+        <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est esse excepturi hic vero
+            voluptatum
+            dolor nostrum rerum voluptatibus vel sapiente dolorum necessitatibus adipisci eligendi, ipsum maiores quos
+            nisi ipsa.</p>
+    </div>
+    <div class="a">
+        <h1>This is Heading</h1>
+        <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est esse excepturi hic vero
+            voluptatum
+            dolor nostrum rerum voluptatibus vel sapiente dolorum necessitatibus adipisci eligendi, ipsum maiores quos
+            nisi ipsa.</p>
+    </div>
+
+    <!-- css specificity -->
+    <!-- the id selector wins over the class -->
+    <p class="test" id="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est esse excepturi hic
+        vero voluptatum
+        dolor nostrum rerum voluptatibus vel sapiente dolorum necessitatibus adipisci eligendi, ipsum maiores quos
+        nisi ipsa.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium praesentium nihil
+            exercitationem enim numquam doloribus, ipsum officia possimus excepturi adipisci, consectetur nostrum
+            repellat quisquam alias voluptas voluptatibus, laboriosam dolorem!</p>
+    </div>
+</body>
+
+</html>
