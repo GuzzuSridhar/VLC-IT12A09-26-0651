@@ -1,0 +1,48 @@
+<!-- Absolute units -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* apply some absolute units */
+        body {
+            height: 550px;
+        }
+
+        .box {
+            background-color: aqua;
+            color: rgb(243, 10, 10);
+            margin-bottom: 3px;
+        }
+
+        .rembox {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .pcbox {
+            width: 50%;
+            height: 50%;
+        }
+
+        .vwbox {
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box rembox"></div>
+    <div class="box pcbox"></div>
+    <div class="box vwbox"></div>
+
+    <!-- empty div -->
+    <!-- the height of a div is always the height of its content -->
+    <div class="box"></div>
+</body>
+
+</html>
