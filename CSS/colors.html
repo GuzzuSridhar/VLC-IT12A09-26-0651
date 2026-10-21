@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* colors can be specifies in various ways  */
+        /* 1. color names
+            2. hexadecimal codes
+            3. rgb values
+            4. rgba values
+            5. hsl values
+            6. hsla values */
+
+        .test {
+            /* color name */
+            /* refrain from using color names as they are not very descriptive */
+            background-color: aqua;
+            color: chartreuse;
+
+            /* hexadecimal codes */
+            /* it starts with # followed by 6 hexadecimal digits
+               the digits range from 0-9 and a-f 
+               they represent the red, green, and blue values of the color 
+               the first two digits represent the red value
+               the next two digits represent the green value
+               the last two digits represent the blue value */
+            background-color: #30baba;
+            color: #00ff00;
+
+            /* rgb values */
+            /* it starts with rgb() followed by three values separated by commas
+               the values range from 0-255
+               they represent the red, green, and blue values of the color 
+               the first value represents the red value
+               the second value represents the green value
+               the third value represents the blue value */
+            background-color: rgb(255, 200, 0);
+            color: rgb(0, 255, 0);
+
+            /* rgba values */
+            /* it starts with rgba() followed by four values separated by commas
+               the first three values range from 0-255
+               the fourth value ranges from 0-1
+               they represent the red, green, blue, and alpha values of the color 
+               the first value represents the red value
+               the second value represents the green value
+               the third value represents the blue value
+               the fourth value represents the alpha value
+               the alpha value is the transparency of the color
+               0 is fully transparent
+               1 is fully opaque */
+            background-color: rgba(0, 255, 255, 0.63);
+            color: rgba(0, 255, 0, 0.5);
+
+            /* hsl values */
+            /* it starts with hsl() followed by three values separated by commas
+               the first value ranges from 0-360
+               the second and third values range from 0-100%
+               they represent the hue, saturation, and lightness values of the color 
+               the first value represents the hue value
+               the second value represents the saturation value
+               the third value represents the lightness value */
+            background-color: hsl(180, 100%, 50%);
+            color: hsl(120, 100%, 50%);
+
+            /* hsla values */
+            /* it starts with hsla() followed by four values separated by commas
+               the first value ranges from 0-360
+               the second and third values range from 0-100%
+               the fourth value ranges from 0-1
+               they represent the hue, saturation, lightness, and alpha values of the color 
+               the first value represents the hue value
+               the second value represents the saturation value
+               the third value represents the lightness value
+               the fourth value represents the alpha value
+               the alpha value is the transparency of the color
+               0 is fully transparent
+               1 is fully opaque */
+            background-color: hsla(39, 100%, 50%, 0.582);
+            color: hsla(120, 100%, 50%, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <p style="color: #97A87A;"></p>
+</body>
+
+</html>
