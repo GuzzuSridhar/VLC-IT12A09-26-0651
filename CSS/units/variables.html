@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            /* all variables are to be declared in root */
+            --primarycolor: blue;
+            --secondarycolor: red;
+            --accentcolor: green;
+            --fontsize: 20px;
+            --fontfamily: 'Arial', sans-serif;
+        }
+
+        p {
+            /* apply the variable using the following syntax */
+            color: var(--primarycolor);
+            font-size: var(--fontsize);
+            font-family: var(--fontfamily);
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem praesentium eum expedita natus cumque ad. Fugiat
+        dicta assumenda rerum, tempore libero tenetur! Excepturi provident aperiam similique ducimus, ab reiciendis
+        dolore!</p>
+</body>
+
+</html>
