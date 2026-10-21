@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendant selector */
+        section p {
+            color: green;
+            background-color: gold;
+        }
+
+        tfoot td {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>This is in the section</p>
+        <p>This is in the section</p>
+        <div>
+            <p>This is in the section</p>
+            <p>This is in the section</p>
+        </div>
+        <p>This is in the section</p>
+    </section>
+    <p>This is not in the section</p>
+    <p>This is not in the section</p>
+    <p>This is not in the section</p>
+
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+            <td>test</td>
+        </tbody>
+        <tfoot>
+            <td>test</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
