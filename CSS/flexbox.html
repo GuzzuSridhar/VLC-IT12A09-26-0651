@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+            /* implicitly applies float */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: calc((100% - 20px) / 3);
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- image gallery -->
+    <div class="gallery">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+        <img src="https://picsum.photos/200/300" alt="img1">
+    </div>
+</body>
+
+</html>
