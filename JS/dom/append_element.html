@@ -13,11 +13,11 @@
 
     <script>
         function appendPara() {
-            let currTxt = document.getElementById('p').textContent
-            console.log("The current text in the paragraph is: " + currTxt)
-            currTxt += "This appended text"
-            document.getElementById('p').textContent = currTxt
-            console.log("The current text in the paragraph is: " + currTxt)
+            // without new line
+            document.getElementById('p').textContent += " This appended text"
+            // with new line
+            document.getElementById('p').innerHTML += " This appended text <br>"
+
         }
     </script>
 </body>
