@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- append the text of a paragraph using a user input -->
+    <!-- input box -->
+    <input type="text" name="" id="inp">
+    <button onclick="readValue()">Append</button>
+
+    <p id="p"></p>
+
+    <script>
+        function readValue() {
+            let inVal = document.getElementById('inp').value;
+            // document.getElementById('p').textContent += inVal
+            document.getElementById('p').innerHTML += inVal + '<br>'
+        }
+    </script>
+</body>
+
+</html>
