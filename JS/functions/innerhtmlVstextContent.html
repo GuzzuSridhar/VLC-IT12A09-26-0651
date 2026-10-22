@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c {
+            background-color: rgb(118, 209, 223);
+        }
+    </style>
+</head>
+
+<body>
+    <p id="x">
+        <em>
+            This is a nested element inside the p tag
+        </em>
+    </p>
+
+    <div id="parent" class="c">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur optio eveniet est saepe perferendis sit
+            blanditiis excepturi doloremque totam nobis id sed, ex praesentium exercitationem aliquam quod eos numquam
+            tenetur.</p>
+        <p>Eaque delectus placeat vero, nostrum repudiandae possimus libero esse nam iusto commodi, numquam autem iure.
+            Sed, voluptates molestiae officiis reiciendis nisi dolorem explicabo facilis, cumque quis enim vel deleniti?
+            Itaque!</p>
+
+    </div>
+
+    <button onclick="changehtml()"> change html </button>
+    <button onclick="getDivContent()"> Show div content </button>
+    <button onclick="setDivContent()"> change div content </button>
+
+    <script>
+        console.log(document.getElementById('x').innerHTML);
+        console.log(document.getElementById('x').textContent);
+        function changehtml() {
+            document.getElementById('x').innerHTML = '<b> changed </b>'
+            console.log(document.getElementById('x').innerHTML);
+            console.log(document.getElementById('x').textContent);
+        }
+        function getDivContent() {
+            console.log(document.getElementById('parent').innerHTML);
+            console.log(document.getElementById('parent').textContent);
+        }
+        function setDivContent() {
+            document.getElementById('parent').innerHTML = '<h2> changed content </h2> <h3> also this content </h>';
+
+        }
+
+    </script>
+
+</body>
+
+</html>
