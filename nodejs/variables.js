@@ -22,3 +22,15 @@ console.log("The type of variable age is : " + typeof age);
 age = true;
 console.log("The value of variable age is : " + age);
 console.log("The type of variable age is : " + typeof age);
+
+// declare a variable using const (constant)
+// once declared the value cannot be changed
+const company_name = "Apple";
+console.log(company_name);
+// reassign the value of const variable
+// not allowed with the const declaration
+// company_name = "Microsoft";
+console.log(company_name);
+// redeclare the const variable
+// cannot redeclare the variable in same scope
+// const company_name = "Apple";
