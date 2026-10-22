@@ -34,3 +34,25 @@ console.log(company_name);
 // redeclare the const variable
 // cannot redeclare the variable in same scope
 // const company_name = "Apple";
+
+// declare a variable using var
+var employee_name = "John";
+console.log(employee_name);
+
+// reassign the value of var variable
+employee_name = 20;
+console.log("The value of variable employee_name is : " + employee_name);
+
+//redeclare the variable
+//var can be redeclared in same scope
+var employee_name = "Alex";
+console.log(employee_name);
+
+// declare variable without assigning a value
+let l;
+// not allowed to declare const without assignment
+// const c;
+var v;
+console.log(l);
+// console.log(c);
+console.log(v);
