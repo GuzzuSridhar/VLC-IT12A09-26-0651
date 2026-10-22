@@ -8,16 +8,19 @@
     <!-- javascript in head section -->
     <script>
         alert('Welcome to JS World')
+        // test uncommenting the line below
+        // document.getElementById('heading').textContent = 'Welcome to JS World'
         console.log('Welcome to JS World')
     </script>
 </head>
 
 <body>
-    <h1>Internal Javascript</h1>
+    <h1 id="heading">Internal Javascript</h1>
     <!-- javascript in body -->
     <!-- script should always be the last tag / element just befor the close of body -->
     <script>
         alert('from the script in body')
+        document.getElementById('heading').textContent = 'Welcome to JS World'
         console.log('from the script in body')
     </script>
 </body>
