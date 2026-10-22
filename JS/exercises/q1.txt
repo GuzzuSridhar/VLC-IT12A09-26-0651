@@ -1,0 +1,47 @@
+# JavaScript s: Variables, Arithmetic & Assignment Operators
+
+## Section 1: Variables and Arithmetic Operators
+
+ 1: Student Marks
+
+Declare variables maths = 85, science = 90, and english = 78. Calculate and display the total marks and average marks.
+
+ 2: Shopping Bill
+
+Declare price = 250 and quantity = 4. Calculate the total cost of the items.
+
+ 3: Rectangle Calculator
+
+Declare length = 12 and width = 5. Calculate and display the area and perimeter of the rectangle.
+
+ 4: Remainder Calculator
+
+Declare number = 47. Find the remainder when the number is divided by 5.
+
+ 5: Power Calculator
+
+Declare base = 3 and exponent = 4. Calculate the result using the exponentiation operator.
+
+## Section 2: Assignment Operators
+
+Topics: =, +=, -=, *=, /=, %=, **=
+
+ 6: Update a Score
+
+Declare score = 100. Increase the score by 25 using an assignment operator. Display the updated score.
+
+ 7: Bank Balance
+
+Declare balance = 5000. Deposit 1500, then withdraw 2000. Use assignment operators to update the balance after each transaction.
+
+ 8: Shopping Discount
+
+Declare price = 1200. Reduce the price by 200 using an assignment operator. Display the final price.
+
+ 9: Division Assignment
+
+Declare number = 144. Divide it by 12 using the appropriate assignment operator. Display the result.
+
+ 10: Remainder Assignment
+
+Declare number = 29. Use the remainder assignment operator to store the remainder after dividing by 6.

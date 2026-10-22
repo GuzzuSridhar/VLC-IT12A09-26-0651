@@ -22,3 +22,13 @@ console.log(n * m);
 console.log(n / m);
 //mod
 console.log(n % m);
+
+// increment and decrement
+// x++ or ++x same as x = x +1
+// x-- or --x same as x = x-1
+
+let x = 1;
+console.log(x++); // 1
+console.log(++x); // 3
+console.log(x--); //3
+console.log(--x); //1
