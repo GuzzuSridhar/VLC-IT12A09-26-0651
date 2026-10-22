@@ -14,7 +14,7 @@ let full_name = fname + " " + lname;
 console.log("The full name is : " + full_name);
 
 // template literals (Back ticks)
-let message = `Hello ${fname}`;
+let message = `Hello ${full_name}`;
 console.log("The message is : " + message);
 
 // string methods
