@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p"></p>
+    <button onclick="appendPara()">Append Paragraph</button>
+
+    <script>
+        function appendPara() {
+            let currTxt = document.getElementById('p').textContent
+            console.log("The current text in the paragraph is: " + currTxt)
+            currTxt += "This appended text"
+            document.getElementById('p').textContent = currTxt
+            console.log("The current text in the paragraph is: " + currTxt)
+        }
+    </script>
+</body>
+
+</html>
