@@ -1,0 +1,6 @@
+swap the variable values
+say a=5 and y=10
+the output should be a=10 and y=5
+
+Hint:
+acheive that in 2 ways using a 3rd variable and without a 3rd variable
