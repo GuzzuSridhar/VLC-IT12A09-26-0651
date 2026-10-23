@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            color: aqua;
+        }
+
+        .two {
+            color: orange
+        }
+    </style>
+</head>
+
+<body>
+    <p id="one" class="one" mouse>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt,
+        perferendis
+        ipsum suscipit ducimus
+        porro tenetur voluptates quo vel maxime numquam cupiditate pariatur praesentium sint, nostrum sapiente dicta
+        laudantium maiores?</p>
+    <p id="two" class="two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nesciunt,
+        perferendis
+        ipsum suscipit ducimus
+        porro tenetur voluptates quo vel maxime numquam cupiditate pariatur praesentium sint, nostrum sapiente dicta
+        laudantium maiores?</p>
+
+    <script>
+        // read the style of the element
+        // <style>.property will only be read if the property is assigned using the inline styles
+        let c1 = document.getElementById("one").style.color
+        let c2 = document.getElementById("two").style.color
+
+        console.log(c1)
+        console.log(c2)
+    </script>
+
+</body>
+
+</html>
