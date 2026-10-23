@@ -15,3 +15,24 @@ while (i < 11) {
   // increment the value of i by 1
   i++;
 }
+
+console.log("------------------------------------------");
+
+// extract all characters from a string
+let x = "hello",
+  temp = "",
+  idx = 0;
+while (idx < x.length) {
+  temp += x.charAt(idx);
+  idx++;
+}
+console.log(temp);
+
+// reverse of the String
+idx = x.length - 1;
+temp = "";
+while (idx >= 0) {
+  temp += x.charAt(idx);
+  idx--;
+}
+console.log(temp);
