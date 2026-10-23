@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="head">Move your mouse over me </h1>
+    <h1 id="head1">Move your mouse over me </h1>
+
+    <script>
+        let a = document.getElementById("head");
+
+        // event to capture the mouse hover
+        a.addEventListener("mouseover", function () {
+
+            console.log('even fired')
+
+            let c1 = document.getElementById("head").style.color
+            let c2 = document.getElementById("head1").style.color
+
+
+            if (c1 == "red") {
+                console.log(c1 + c2 + 'if')
+                document.getElementById("head").style.color = "green"
+                document.getElementById("head1").style.color = "red"
+            } else if (c1 == "green") {
+                console.log(c1 + c2 + 'else')
+                document.getElementById("head").style.color = "red"
+                document.getElementById("head1").style.color = "green"
+            } else {
+                document.getElementById("head").style.color = "red"
+                document.getElementById("head1").style.color = "green"
+            }
+        })
+
+
+
+    </script>
+</body>
+
+</html>
