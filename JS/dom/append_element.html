@@ -13,10 +13,27 @@
 
     <script>
         function appendPara() {
+
             // without new line
-            // document.getElementById('p').textContent += " This appended text"
+            // document.getElementById('p').textContent += "This appended text"
+            // console.log('1' + document.getElementById('p').textContent)
+            // // with new line
+            // document.getElementById('p').innerHtml += "<br> This appended text "
+            // console.log('2' + document.getElementById('p').innerHTML)
+
+
+            // without new line
+            document.getElementById('p').textContent += "This appended text"
+            console.log('1' + document.getElementById('p').textContent)
             // with new line
-            document.getElementById('p').innerHTML += " This appended text <br>"
+            let p = document.getElementById('p');
+            let content = p.innerHTML;
+            content = content.replaceAll("<br>", "");
+            content = content.replaceAll("text", "text<br>");
+            p.innerHTML = content
+            console.log('2' + content)
+
+
         }
     </script>
 </body>
