@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="one">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed et possimus nobis culpa, dolorem harum
+        sunt optio suscipit! Consequuntur distinctio libero accusamus quos sit, qui magni atque eligendi veritatis
+        magnam.
+    </p>
+
+    <script>
+        let a = document.getElementById("one")
+
+        a.addEventListener("mouseover", function () {
+            console.log('mouseover event fired')
+        })
+
+        a.addEventListener("click", function () {
+            console.log('mouse click event fired')
+        })
+
+
+        a.addEventListener("mouseout", function () {
+            console.log('mouseout event fired')
+        })
+
+        // not relevant for a paragraph
+        a.addEventListener("keypress", function () {
+            console.log('mouse keypress event fired')
+        })
+
+        // remove the event listener
+        a.addEventListener("mouseleave", function () {
+            console.log('mouse leave event unregistered')
+        })
+
+
+    </script>
+</body>
+
+</html>
