@@ -6,3 +6,6 @@ let age = 10;
 // console.log(res)
 
 console.log(age >= 18 ? "Adult" : "Minor");
+
+// ternary can replace if-else
+// only if there is not else if
