@@ -1,0 +1,2 @@
+declare a numeric variable
+print if the value is odd or even
