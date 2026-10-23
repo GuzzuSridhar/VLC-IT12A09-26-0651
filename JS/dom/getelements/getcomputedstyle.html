@@ -7,11 +7,12 @@
     <title>Document</title>
     <style>
         .one {
-            color: aqua;
+            color: #00ffff;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         .two {
-            color: orange
+            color: #ffa500
         }
     </style>
 </head>
@@ -29,13 +30,16 @@
         laudantium maiores?</p>
 
     <script>
-        // read the style of the element
-        // <style>.property will only be read if the property is assigned using the inline styles
-        let c1 = document.getElementById("one").style.color
-        let c2 = document.getElementById("two").style.color
+        // read the style of the element that used a class
+        let f1 = getComputedStyle(document.getElementById("one")).fontSize
+        let c1 = getComputedStyle(document.getElementById("one")).color
+        let c2 = getComputedStyle(document.getElementById("two")).color
+
+
 
         console.log(c1)
         console.log(c2)
+        console.log(f1)
     </script>
 
 </body>
