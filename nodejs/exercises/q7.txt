@@ -1,0 +1,3 @@
+print multiplication tables of a a given number
+
+print  10 multiplication tables (1 -10)
