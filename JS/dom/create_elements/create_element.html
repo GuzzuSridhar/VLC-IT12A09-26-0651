@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <!-- no elements in body only the script -->
+
+    <!--  elements in body created using  script -->
+
+    <script>
+
+        // create heading element
+        let heading = document.createElement("h1");
+        heading.textContent = "Welcome";
+
+        // create paragraph element
+        let para = document.createElement("p");
+        para.textContent = "This is a paragraph.";
+
+        // create button element
+        let btn = document.createElement("button");
+        btn.textContent = "Click Me";
+
+        document.body.appendChild(heading);
+        document.body.appendChild(para);
+        document.body.appendChild(btn);
+    </script>
+</body>
+
+</html>
